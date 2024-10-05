@@ -26,7 +26,10 @@ const timeSchema = new mongoose.Schema({
         }
       ],
     }
-  ]
+  ],
+  comment:{
+    type:String,
+  }
 });
 
 
